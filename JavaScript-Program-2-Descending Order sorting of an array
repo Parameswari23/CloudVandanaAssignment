@@ -1,0 +1,7 @@
+function sortDescending(arr) {
+    return arr.sort((a, b) => b - a);
+}
+
+const numbers = [10, 5, 8, 2, 7];
+const sortedDescending = sortDescending(numbers);
+console.log('Array sorted in descending order:', sortedDescending);
