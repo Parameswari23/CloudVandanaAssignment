@@ -6,7 +6,7 @@ public class Main {
 
         System.out.println("Original array: " + arrayToString(array));
 
-        // Shuffle the array
+        
         shuffleArray(array);
 
         System.out.println("Shuffled array: " + arrayToString(array));
@@ -16,7 +16,6 @@ public class Main {
         Random random = new Random();
         for (int i = arr.length - 1; i > 0; i--) {
             int index = random.nextInt(i + 1);
-            // Swap arr[i] and arr[index]
             int temp = arr[i];
             arr[i] = arr[index];
             arr[index] = temp;
