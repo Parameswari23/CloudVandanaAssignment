@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+  <div class="container">
+     <h1>Customer Survey Form</h1>
+    <div class="form-container">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" class="black-text" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="black-text" required>
+      </div>
+
+      <div class="form-question">
+        <label>Is this your first time using our products and services?</label><br>
+        <input type="radio" id="firstTimeYes" name="firstTime" value="Yes">
+        <label for="firstTimeYes">Yes</label>
+        <input type="radio" id="firstTimeNo" name="firstTime" value="No">
+        <label for="firstTimeNo">No</label>
+      </div>
+
+      <div class="form-question">
+        <label>Would you recommend our services to your friends and colleagues?</label><br>
+        <input type="radio" id="recommendYes" name="recommend" value="Yes">
+        <label for="recommendYes">Yes</label>
+        <input type="radio" id="recommendNo" name="recommend" value="No">
+        <label for="recommendNo">No</label>
+      </div>
+
+      <div class="form-question">
+        <label>How satisfied are you with our company overall?</label><br>
+        <input type="radio" id="satisfied" name="satisfaction" value="Satisfied">
+        <label for="satisfied">Satisfied</label>
+        <input type="radio" id="undecided" name="satisfaction" value="Undecided">
+        <label for="undecided">Undecided</label>
+        <input type="radio" id="unsatisfied" name="satisfaction" value="Unsatisfied">
+        <label for="unsatisfied">Unsatisfied</label>
+    </div>
+
+    <div class="form-group">
+      <label for="suggestions">Do you have any suggestions to improve our service?</label><br>
+      <textarea id="suggestions" rows="4" cols="50"></textarea>
+    </div>
+
+    <button onclick="submitForm()">Submit</button>
+  </div>
+  <p class="footer">© 2018 Customer Survey Form. All Rights Reserved. Designed by <span class="purple-text"> w3 layouts</span></p>
+</div>
+
+<script src="scripting.js"></script>
+</body>
+</html>
