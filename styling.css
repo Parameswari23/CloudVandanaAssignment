@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(0, 119, 255);
+
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .black-text {
+    color: black;
+  }
+  
+  .form-question {
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .purple-text {
+    background color:  rgba(128, 0, 128, 0.534);
+  }
